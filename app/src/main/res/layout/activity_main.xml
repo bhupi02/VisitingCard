@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentLeft="true"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="168dp"
+            android:layout_marginEnd="-168dp"
+            android:layout_marginRight="-168dp"
+            android:layout_marginBottom="7dp"
+            app:srcCompat="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="31dp"
+            android:layout_marginTop="42dp"
+            android:layout_marginRight="-31dp"
+            android:text="BHUPI ENTERPRISES"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#673AB7"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/black" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="25dp"
+        android:text="BHUPI"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textIsSelectable="false"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="25dp"
+        android:text="EIE"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textIsSelectable="false"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="25dp"
+        android:text="RNSIT"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textIsSelectable="false"
+        android:textSize="20sp" />
+    <TextView
+    android:id="@+id/textView5"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="25dp"
+    android:text="BANGALORE"
+    android:textAlignment="center"
+    android:textColor="@color/black"
+    android:textIsSelectable="false"
+    android:textSize="20sp" />
+</LinearLayout>
